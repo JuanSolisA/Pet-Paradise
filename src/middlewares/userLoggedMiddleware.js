@@ -1,7 +1,7 @@
 const User = require("../modelsJson/User");
 
 function userLoggedMiddleware(req, res, next) {
-  res.locals.isLogged = false;
+ /*  res.locals.isLogged = false;
 
   let emailInCookie = req.cookies.userEmail;
   let userFromCookie = User.findByField("email", emailInCookie);
@@ -15,7 +15,7 @@ function userLoggedMiddleware(req, res, next) {
     res.locals.isLogged = true;
     res.locals.userLogged = req.session.userLogged;
   };
-
+ */
   next();
 }
 
