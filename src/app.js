@@ -62,8 +62,8 @@ app.use("/adopcion", routerAdopcion);
 app.use("/api", routerAPI);
 app.use('/api', apiProductsRouter);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT ;
 
-app.listen(port, () => {
+app.listen(3001, () => {
   console.log(`Servidor escuchando en puerto ${port}`);
 });
