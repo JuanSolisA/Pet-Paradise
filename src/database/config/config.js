@@ -3,7 +3,7 @@ module.exports = {
     username: "root",
     password: null,
     database: "petparadise_db",
-    host: "127.0.0.1",
+    host: "localhost",//127.0.0.1
     dialect: "mysql",
   }
 };
